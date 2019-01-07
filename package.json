@@ -1,0 +1,26 @@
+{
+  "name": "nd20",
+  "version": "1.0.0",
+  "description": "CLI D20 Roller in Node",
+  "main": "main.js",
+  "scripts": {
+    "pretest": "eslint --ignore-path .gitignore .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stephen Dunne",
+  "license": "MIT",
+  "bin": {
+    "nd20": "main.js"
+  },
+  "dependencies": {
+    "commander": "^2.19.0",
+    "random": "^2.0.13"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.3"
+  }
+}
